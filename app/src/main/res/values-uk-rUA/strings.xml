@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="show_weather">Дізнатись погоду</string>
+    <string name="enter_the_city_name">Введіть назву міста</string>
+    <string name="city_name">Назва міста</string>
+    <string name="temperature">Температура</string>
+    <string name="Temperature">"Температура: "</string>
+    <string name="description">Опис</string>
+    <string name="Enter_city_name">Введіть назву міста</string>
+    <string name="Cant_found_this_city">Не можу знайти таке місто</string>
+    <string name="Outside">"На вулиці: "</string>
+    <string name="link"><![CDATA[https://api.openweathermap.org/data/2.5/weather?q=Kyiv&appid=8bd5dca63e0f1e3765872f788726452c&lang=ua]]></string>
+    <string name="link_format"><![CDATA[https://api.openweathermap.org/data/2.5/weather?q=%s&appid=8bd5dca63e0f1e3765872f788726452c&lang=ua]]></string>
+    <string name="feels_like">Відчувається як</string>
+    <string name="Feels_like">"Відчувається як: "</string>
+    <string name="humidity">Вологість</string>
+    <string name="pressure">Тиск</string>
+    <string name="Humidity_">"Вологість: "</string>
+    <string name="Pressure_">"Тиск: "</string>
+</resources>

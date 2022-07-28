@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_for_weather_app"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edit_text_city_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enter_the_city_name"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/button_show_weather"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:textSize="23sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_show_weather"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/show_weather"
+        android:textColor="@color/white"
+        app:strokeColor="@color/white"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/linear_layout_for_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text_city_name"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"/>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/linear_layout_for_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_show_weather"
+        android:background="#7A5E5E5E">
+
+        <TextView
+            android:id="@+id/text_view_city_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textSize="23sp"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:textColor="@color/white"
+            android:text="@string/city_name"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/text_view_temperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:text="@string/temperature"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/text_view_temperature_feel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:text="@string/feels_like"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/text_view_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:text="@string/description"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/text_view_humidity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:text="@string/humidity"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/text_view_pressure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:text="@string/pressure"
+            android:layout_marginBottom="8dp"/>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

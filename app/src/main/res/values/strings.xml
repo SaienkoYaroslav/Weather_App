@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name" translatable="false">Weather App</string>
+    <string name="show_weather">Show weather</string>
+    <string name="enter_the_city_name">Enter the city name</string>
+    <string name="city_name">City name</string>
+    <string name="temperature">Temperature</string>
+    <string name="description">Description</string>
+    <string name="Celsius" translatable="false">℃</string>
+    <string name="Enter_city_name">Enter city name</string>
+    <string name="Cant_found_this_city">Can\'t found this city</string>
+    <string name="Temperature">"Temperature: "</string>
+    <string name="Outside">"Outside: "</string>
+    <string name="link"><![CDATA[https://api.openweathermap.org/data/2.5/weather?q=Kyiv&appid=8bd5dca63e0f1e3765872f788726452c]]></string>
+    <string name="link_format"><![CDATA[https://api.openweathermap.org/data/2.5/weather?q=%s&appid=8bd5dca63e0f1e3765872f788726452c]]></string>
+    <string name="feels_like">Feels like</string>
+    <string name="Feels_like">Feels like: </string>
+    <string name="humidity">Humidity</string>
+    <string name="pressure">Pressure</string>
+    <string name="Humidity_">"Humidity: "</string>
+    <string name="Pressure_">"Pressure: "</string>
+    <string name="per_cent" translatable="false">%</string>
+</resources>
